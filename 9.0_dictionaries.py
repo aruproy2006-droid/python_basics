@@ -1,6 +1,6 @@
 student = {
-    "name": "Arup",
+    "name": "Steve",
     "age": 18
 }
 
-print(student["Steve"])
+print(student["name"])
