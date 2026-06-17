@@ -3,4 +3,4 @@ student = {
     "age": 18
 }
 
-print(student["name"])
+print(student["Steve"])
