@@ -1,6 +1,6 @@
-# Python Practice
+# Python Basics
 
-This repository contains my Python learning exercises and mini projects.
+This repository contains my basic Python learning exercises and mini projects.
 
 ## Topics Covered
 - Variables
