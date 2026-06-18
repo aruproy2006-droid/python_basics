@@ -1,9 +1,23 @@
-print("Simple Calculator")
+print("=== Simple Calculator ===")
 
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+num1 = float(input("Enter first number: "))
+operator = input("Enter operator (+, -, *, /): ")
+num2 = float(input("Enter second number: "))
 
-print("Addition:", a + b)
-print("Subtraction:", a - b)
-print("Multiplication:", a * b)
-print("Division:", a / b)
+if operator == "+":
+    print("Result =", num1 + num2)
+
+elif operator == "-":
+    print("Result =", num1 - num2)
+
+elif operator == "*":
+    print("Result =", num1 * num2)
+
+elif operator == "/":
+    if num2 != 0:
+        print("Result =", num1 / num2)
+    else:
+        print("Cannot divide by zero!")
+
+else:
+    print("Invalid operator")
